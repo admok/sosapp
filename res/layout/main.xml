@@ -6,7 +6,7 @@
         >
     <ImageView
             android:layout_width="fill_parent"
-            android:layout_height="135dp"
+            android:layout_height="100dp"
             android:id="@+id/sosView"
             android:src="@drawable/sos"
             />
@@ -27,8 +27,13 @@
     <Button
             android:layout_width="225dp"
             android:layout_height="wrap_content"
-            android:text="Set-up"
-            android:id="@+id/setup" android:layout_gravity="center"/>
+            android:text="Facebook Publish"
+            android:id="@+id/postStatusUpdateButton" android:layout_gravity="center"/>
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Set-up"
+        android:id="@+id/setup" android:layout_gravity="center"/>
     <Button
             android:layout_width="225dp"
             android:layout_height="wrap_content"
@@ -37,8 +42,8 @@
     <Button
             android:layout_width="225dp"
             android:layout_height="wrap_content"
-            android:text="How-to-Use"
-            android:id="@+id/howtouse" android:layout_gravity="center"/>
+            android:text="Stop Alarm"
+            android:id="@+id/stopalarm" android:layout_gravity="center"/>
     <com.facebook.widget.LoginButton
             android:id="@+id/login_button"
             android:layout_width="wrap_content"
