@@ -2,14 +2,15 @@ package com.emergency.EasySOS;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
+import android.location.Location;
+import android.location.LocationManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -22,11 +23,15 @@ import com.facebook.model.GraphPlace;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.FacebookDialog;
 import com.facebook.widget.LoginButton;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.List;
+
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.maps.*;
+import com.google.android.gms.maps.model.*;
+
 
 public class Main extends Activity{
     /**
@@ -44,6 +49,10 @@ public class Main extends Activity{
     private Button postStatusUpdateButton;
     private GraphPlace place;
     private List<GraphUser> tags;
+    private int alarmStatus = 0;
+    private GoogleMap googleMap;
+    private double lat;
+    private double lng;
 
 //    private enum PendingAction {
 //        NONE,
@@ -85,55 +94,14 @@ public class Main extends Activity{
 
         final MediaPlayer buttonSound = MediaPlayer.create(Main.this, R.raw.alarm);
 
-        Button setup = (Button) findViewById(R.id.setup);
+//        Button setup = (Button) findViewById(R.id.setup);
         Button contacts = (Button) findViewById(R.id.contacts);
-        Button stop = (Button) findViewById(R.id.stopalarm);
-        ImageView alert  = (ImageView) findViewById(R.id.alertView);
+        Button mapButton = (Button) findViewById(R.id.mapButton);
+        ImageView alertStart  = (ImageView) findViewById(R.id.alertStart);
 
         greetings = (TextView) findViewById(R.id.welcome);
 
-//        start Facebook Login
-//        Session.openActiveSession(this, true, new Session.StatusCallback() {
-//
-//            // callback when session changes state
-//            @Override
-//            public void call(Session session, SessionState state, Exception exception) {
-//                if (session.isOpened()) {
-//
-//                    // make request to the /me API
-//                    Request.newMeRequest(session, new Request.GraphUserCallback() {
-//
-//                        // callback after Graph API response with user object
-//                        @Override
-//                        public void onCompleted(GraphUser user, Response response) {
-//                            if (user != null) {
-//                                TextView welcome = (TextView) findViewById(R.id.welcome);
-//                                welcome.setText("Hello " + user.getName() + "!");
-//                            }
-//                        }
-//                    }).executeAsync();
-//                }
-//            }
-//        });
-
-//        loginButton = (LoginButton) findViewById(R.id.login_button);
-//        loginButton.setUserInfoChangedCallback(new LoginButton.UserInfoChangedCallback() {
-//            @Override
-//            public void onUserInfoFetched(GraphUser user) {
-//                Main.this.user = user;
-//            }
-//        });
-
-//        welcome = (TextView) findViewById(R.id.welcome);
-//        welcome.setText("Hello " + user.getName() + "!");
-
-        setup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //To change body of implemented methods use File | Settings | File Templates.
-                startActivity(new Intent("com.emergency.EasySOS.SETUP"));
-            }
-        });
+        GetCurrentLocation();
 
         contacts.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,18 +111,26 @@ public class Main extends Activity{
             }
         });
 
-        stop.setOnClickListener(new View.OnClickListener() {
+        mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //To change body of implemented methods use File | Settings | File Templates.
-                buttonSound.pause();
+                startActivity(new Intent("com.emergency.EasySOS.MAP"));
             }
         });
 
-        alert.setOnClickListener(new View.OnClickListener(){
+        alertStart.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                buttonSound.start();
+                if(alarmStatus == 1){
+                    buttonSound.pause();
+                    alarmStatus = 0;
+                }
+                else
+                {
+                    buttonSound.start();
+                    alarmStatus++;
+                }
             }
         });
 
@@ -165,12 +141,6 @@ public class Main extends Activity{
             }
         });
     }
-
-//    @Override
-//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
-//    }
 
     @Override
     public void onResume() {
@@ -211,12 +181,15 @@ public class Main extends Activity{
                             if (user != null) {
                                 greetings.setText("Hello " + user.getName() + "!");
                             }
+                            Main.this.user = user;
+                            postStatusUpdateButton.setEnabled(true);
                         }
             }).executeAsync();
         }
 
         else if(session.getState().isClosed()){
             greetings.setText("");
+            postStatusUpdateButton.setEnabled(false);
         }
     }
 
@@ -256,7 +229,7 @@ public class Main extends Activity{
             FacebookDialog shareDialog = createShareDialogBuilder().build();
             uiHelper.trackPendingDialogCall(shareDialog.present());
         } else if (user != null && hasPublishPermission()) {
-            final String message = getString(R.string.status_update, user.getFirstName(), (new Date().toString()));
+            final String message = getString(R.string.status_update, user.getFirstName(), (new Date().toString()),  "http://maps.google.com/maps?q=" + Double.toString(lat) + "," + Double.toString(lng) );
             Request request = Request
                     .newStatusUpdateRequest(Session.getActiveSession(), message, place, tags, new Request.Callback() {
                         @Override
@@ -298,5 +271,43 @@ public class Main extends Activity{
 
     private interface GraphObjectWithId extends GraphObject {
         String getId();
+    }
+
+
+    private void GetCurrentLocation() {
+
+        double[] d = getlocation();
+        lat = d[0];
+        lng = d[1];
+
+//        googleMap
+//                .addMarker(new MarkerOptions()
+//                        .position(new LatLng(lat, lng))
+//                        .title("Current Location")
+//                        .icon(BitmapDescriptorFactory
+//                                .fromResource(R.drawable.dot_blue)));
+//
+//        googleMap
+//                .animateCamera(CameraUpdateFactory.newLatLngZoom(
+//                        new LatLng(lat, lng), 5));
+    }
+
+    public double[] getlocation() {
+        LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        List<String> providers = lm.getProviders(true);
+
+        Location l = null;
+        for (int i = 0; i < providers.size(); i++) {
+            l = lm.getLastKnownLocation(providers.get(i));
+            if (l != null)
+                break;
+        }
+        double[] gps = new double[2];
+
+        if (l != null) {
+            gps[0] = l.getLatitude();
+            gps[1] = l.getLongitude();
+        }
+        return gps;
     }
 }

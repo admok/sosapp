@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">EasySOS</string>
     <string name="app_id">216660598509644</string>
-    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="status_update">Help! I am in trouble! at %2$s - at %3$s</string>
     <string name="success">Success</string>
     <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
     <string name="error">Error</string>

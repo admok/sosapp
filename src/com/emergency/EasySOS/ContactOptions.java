@@ -16,7 +16,7 @@ import android.widget.ListView;
  */
 
 public class ContactOptions extends ListActivity {
-    String classNames[] = {"PhoneContacts", "EmergencyContacts"};
+    String classNames[] = {"ContactList", "EmergencyContacts"};
     String contactOptions[] = {"Phone Contacts", "Emergency Contacts"};
 
     @Override

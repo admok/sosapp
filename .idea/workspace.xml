@@ -31,25 +31,25 @@
     <list default="true" id="c90b7078-3e43-4181-86b1-57bd15d521a5" name="Default" comment="" />
     <ignored path="MySOS.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381947141519" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381940535147" ignored="false" />
-    <file path="/Main.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381947569180" ignored="false" />
-    <file path="/Dummy.txt" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381925356081" ignored="false" />
+    <file path="/main.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381987106354" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381978643443" ignored="false" />
+    <file path="/Main.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381982996914" ignored="false" />
+    <file path="/Dummy.txt" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381978655424" ignored="false" />
     <file path="/SetupList.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381910311013" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidTutorial/src/com/example/AndroidTutorial/TutorialTwo.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381835233720" ignored="false" />
     <file path="/TutorialTwo.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381835174149" ignored="false" />
     <file path="/PhoneContacts.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381911052683" ignored="false" />
     <file path="/EditContacts.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381899119402" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381903476140" ignored="false" />
-    <file path="/fragment.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381946090957" ignored="false" />
+    <file path="/fragment.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381982663127" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidTutorial/gen/com/example/AndroidTutorial/BuildConfig.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381904089078" ignored="false" />
-    <file path="/strings.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381904129382" ignored="false" />
+    <file path="/strings.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381983036371" ignored="false" />
     <file path="/EmergencyContacts.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381908105752" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidTutorial/src/com/example/AndroidTutorial/menu.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381907957790" ignored="false" />
     <file path="/SetupContact.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381910830506" ignored="false" />
     <file path="/SetContacts.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381942510235" ignored="false" />
     <file path="/contacts.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381911558072" ignored="false" />
-    <file path="/ContactList.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381942942517" ignored="false" />
+    <file path="/ContactList.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381976201872" ignored="false" />
     <file path="/ContactOptions.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381911944765" ignored="false" />
     <file path="/SelectionFragment.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381914043487" ignored="false" />
     <file path="$PROJECT_DIR$/../FacebookTest/AndroidManifest.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381915655042" ignored="false" />
@@ -71,9 +71,12 @@
     <file path="/HelloFacebookSampleActivity.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381947265755" ignored="false" />
     <file path="C:/Program Files/Android/facebook-android-sdk-3.5.2/samples/HelloFacebookSample/res/values/strings.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381923674014" ignored="false" />
     <file path="C:/Program Files/Android/facebook-android-sdk-3.5.2/samples/SessionLoginSample/src/com/facebook/samples/sessionlogin/LoginUsingActivityActivity.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381929262883" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/Manifest.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381945438012" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/BuildConfig.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381945442167" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/R.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381945438012" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/Manifest.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381986730877" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/BuildConfig.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381986745710" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/emergency/EasySOS/R.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381986730877" ignored="false" />
+    <file path="/Logo.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381966706719" ignored="false" />
+    <file path="/logo.xml" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381967499987" ignored="false" />
+    <file path="/Map.java" changelist="c90b7078-3e43-4181-86b1-57bd15d521a5" time="1381983623003" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,34 +140,30 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="70" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+            <state line="23" column="70" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1394" selection-end="1394" vertical-scroll-proportion="-0.9030837">
+            <state line="290" column="57" selection-start="10173" selection-end="10173" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1682#1892#0" expanded="true" />
-                <element signature="e#1885#1886#0" expanded="true" />
-                <element signature="e#4701#4985#0" expanded="true" />
-                <element signature="e#4974#4975#0" expanded="true" />
-                <element signature="e#5025#5311#0" expanded="true" />
-                <element signature="e#5300#5301#0" expanded="true" />
-                <element signature="e#5347#5594#0" expanded="true" />
-                <element signature="e#5583#5584#0" expanded="true" />
-                <element signature="e#5631#5782#0" expanded="true" />
-                <element signature="e#5771#5772#0" expanded="true" />
-                <element signature="e#5921#6061#0" expanded="true" />
-                <element signature="e#6050#6051#0" expanded="true" />
-                <element signature="e#7234#7666#0" expanded="true" />
-                <element signature="e#7651#7652#0" expanded="true" />
-                <element signature="e#9361#9640#0" expanded="true" />
-                <element signature="e#9617#9618#0" expanded="true" />
+                <element signature="e#3521#3807#0" expanded="true" />
+                <element signature="e#3796#3797#0" expanded="true" />
+                <element signature="e#3848#4130#0" expanded="true" />
+                <element signature="e#4119#4120#0" expanded="true" />
+                <element signature="e#4172#4553#0" expanded="true" />
+                <element signature="e#4542#4543#0" expanded="true" />
+                <element signature="e#4692#4832#0" expanded="true" />
+                <element signature="e#4821#4822#0" expanded="true" />
+                <element signature="e#5740#6292#0" expanded="true" />
+                <element signature="e#6277#6278#0" expanded="true" />
+                <element signature="e#8129#8408#0" expanded="true" />
+                <element signature="e#8385#8386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,19 +172,40 @@
       <file leaf-file-name="ContactList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="63" column="0" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="30" column="51" selection-start="1219" selection-end="1219" vertical-scroll-proportion="-12.24">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="944" selection-end="944" vertical-scroll-proportion="0.9678218">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="50" selection-start="146" selection-end="146" vertical-scroll-proportion="-2.04">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/setup.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -201,21 +221,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/SetupContact.java" />
-        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/PhoneContacts.java" />
-        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/ContactOptions.java" />
-        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/ContactsActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/select.xml" />
         <option value="$PROJECT_DIR$/res/layout/selection.xml" />
         <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/SelectionFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/welcome.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/EmergencyContacts.java" />
         <option value="$PROJECT_DIR$/res/layout/contacts.xml" />
         <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/SetContacts.java" />
-        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/ContactList.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/logo.xml" />
+        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/Logo.java" />
+        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/ContactOptions.java" />
+        <option value="$PROJECT_DIR$/res/layout/map.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/ContactList.java" />
+        <option value="$PROJECT_DIR$/src/com/emergency/EasySOS/Map.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
       </list>
     </option>
@@ -252,7 +272,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,42 +325,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -351,6 +334,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -363,11 +347,12 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="android.dex.compiler" />
-    <property name="last_opened_file_path" value="C:/Program Files/Android/facebook-android-sdk-3.5.2/facebook" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="last_opened_file_path" value="C:/google_play_services/libproject/google-play-services_lib" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -505,11 +490,11 @@
     </configuration>
     <configuration default="false" name="MySOS" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="MySOS" />
-      <option name="ACTIVITY_CLASS" value="com.emergency.EasySOS.Main" />
+      <option name="ACTIVITY_CLASS" value="com.emergency.EasySOS.Logo" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="TestEmulator" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -538,32 +523,52 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27091378" sideWeight="0.6675939" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26962677" sideWeight="0.6675939" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26898327" sideWeight="0.6675939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.6703755" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33518776" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33240613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.6675939" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33240613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.6675939" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33240613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -635,132 +640,129 @@
   <component name="editorHistoryManager">
     <entry file="file://C:/Program Files/Android/sdk/sources/android-18/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5132" column="0" selection-start="216734" selection-end="216734" vertical-scroll-proportion="0.3318584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Android/facebook-android-sdk-3.5.2/facebook/src/com/facebook/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2228" column="13" selection-start="98831" selection-end="98831" vertical-scroll-proportion="0.33259913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Android/facebook-android-sdk-3.5.2/facebook/src/com/facebook/widget/LoginButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="449" column="0" selection-start="19455" selection-end="19455" vertical-scroll-proportion="0.2973568">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/EmergencyContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="798" selection-end="798" vertical-scroll-proportion="0.59911895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/PhoneContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.41189426">
+        <state line="5133" column="0" selection-start="216760" selection-end="216760" vertical-scroll-proportion="0.33251232">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Android/sdk/sources/android-18/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17884" column="13" selection-start="693415" selection-end="693415" vertical-scroll-proportion="0.3318584">
+        <state line="4243" column="0" selection-start="163917" selection-end="163917" vertical-scroll-proportion="0.33251232">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Android/sdk/sources/android-18/android/media/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="512" column="13" selection-start="27210" selection-end="27210" vertical-scroll-proportion="0.33259913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/logo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="766" selection-end="766" vertical-scroll-proportion="0.7153465">
+        <state line="8" column="42" selection-start="326" selection-end="326" vertical-scroll-proportion="0.33830845">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="68" selection-start="486" selection-end="494" vertical-scroll-proportion="0.29515418">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/layout/map.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="70" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+        <state line="9" column="48" selection-start="466" selection-end="466" vertical-scroll-proportion="-3.06">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="437" selection-end="437" vertical-scroll-proportion="0.3170163">
+        <state line="3" column="50" selection-start="146" selection-end="146" vertical-scroll-proportion="-2.04">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/res/layout/setup.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="30" column="51" selection-start="1219" selection-end="1219" vertical-scroll-proportion="-12.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="286" selection-end="286" vertical-scroll-proportion="-0.1123348">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1394" selection-end="1394" vertical-scroll-proportion="-0.9030837">
+        <state line="290" column="57" selection-start="10173" selection-end="10173" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1682#1892#0" expanded="true" />
-            <element signature="e#1885#1886#0" expanded="true" />
-            <element signature="e#4701#4985#0" expanded="true" />
-            <element signature="e#4974#4975#0" expanded="true" />
-            <element signature="e#5025#5311#0" expanded="true" />
-            <element signature="e#5300#5301#0" expanded="true" />
-            <element signature="e#5347#5594#0" expanded="true" />
-            <element signature="e#5583#5584#0" expanded="true" />
-            <element signature="e#5631#5782#0" expanded="true" />
-            <element signature="e#5771#5772#0" expanded="true" />
-            <element signature="e#5921#6061#0" expanded="true" />
-            <element signature="e#6050#6051#0" expanded="true" />
-            <element signature="e#7234#7666#0" expanded="true" />
-            <element signature="e#7651#7652#0" expanded="true" />
-            <element signature="e#9361#9640#0" expanded="true" />
-            <element signature="e#9617#9618#0" expanded="true" />
+            <element signature="e#3521#3807#0" expanded="true" />
+            <element signature="e#3796#3797#0" expanded="true" />
+            <element signature="e#3848#4130#0" expanded="true" />
+            <element signature="e#4119#4120#0" expanded="true" />
+            <element signature="e#4172#4553#0" expanded="true" />
+            <element signature="e#4542#4543#0" expanded="true" />
+            <element signature="e#4692#4832#0" expanded="true" />
+            <element signature="e#4821#4822#0" expanded="true" />
+            <element signature="e#5740#6292#0" expanded="true" />
+            <element signature="e#6277#6278#0" expanded="true" />
+            <element signature="e#8129#8408#0" expanded="true" />
+            <element signature="e#8385#8386#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="37" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0046189376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/Logo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="416" selection-end="621" vertical-scroll-proportion="0.22687225">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/EmergencyContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="502" selection-end="502" vertical-scroll-proportion="0.24669604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/emergency/EasySOS/ContactList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="944" selection-end="944" vertical-scroll-proportion="0.9678218">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +806,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android 4.3 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,11 +1,16 @@
 package com.emergency.EasySOS;
 
+import android.*;
+import android.R;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.view.View;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 /**
@@ -24,7 +29,7 @@ public class ContactList extends ListActivity {
         // now create a new list adapter bound to the cursor.
         // SimpleListAdapter is designed for binding to a Cursor.
         ListAdapter adapter = new SimpleCursorAdapter(this, // Context.
-                android.R.layout.two_line_list_item, // Specify the row template
+                R.layout.two_line_list_item, // Specify the row template
                 // to use (here, two
                 // columns bound to the
                 // two retrieved cursor

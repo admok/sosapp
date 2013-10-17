@@ -17,6 +17,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="facebook" exported="" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
+    <orderEntry type="module" module-name="google-play-services_lib" exported="" />
+    <orderEntry type="library" exported="" name="google-play-services" level="project" />
+    <orderEntry type="library" exported="" name="google-play-services3" level="project" />
   </component>
 </module>
 
